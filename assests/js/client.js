@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8002');
+const socket = io('https://webchat-server1.herokuapp.com/');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('msgInput');
