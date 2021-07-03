@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assests/images/favicon.png"> 
+    <title>WebChat | Socket IO Chat App</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>Welcome to WebChat App made using Socket!</h1>
+    </nav>
+    <div class="wrapper">
+        <!-- <div class="msg right">Jhon: Hey Dude..</div>
+        <div class="msg left">Mathew: Hi Jhon..</div> -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="msgInput" id="msgInput" placeholder="Type your message here..">
+            <button class="btn" type="submit">Send <i class="fa fa-paper-plane"></i></button>
+        </form>
+    </div>
+
+    <script defer src="http://localhost:8002/socket.io/socket.io.js"></script>
+    <script defer src="assests/js/client.js"></script>
+</body>
+</html>
